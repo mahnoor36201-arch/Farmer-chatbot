@@ -50,10 +50,6 @@ while True:
 
     elif "favorite" in question:
         print("His favorite thing is seeing healthy crops growing in the fields.")
-
-    elif "bye" in question:
-        print("Goodbye! Have a nice day.")
-        break
     
     elif "water" in question or "irrigation" in question:
         print("He carefully manages irrigation to make sure crops get enough water.")
