@@ -1,31 +1,11 @@
-Farmer AI Chatbot 🚜🌾
-This is an AI-powered chatbot specifically designed and developed to support farmers by automating responses to agriculture-related queries. It helps farmers get instant, reliable answers about crops, weather, pest control, and government schemes to improve their yield and daily farming decisions.
+# Conversational Agent
 
-📌 Key Features
-200+ Agriculture QA Dataset: Capable of handling over 200 farming-specific customer and regional queries accurately.
+A domain-specific chatbot developed to simulate the professional profile of a traditional farmer. This project explores the intersection of agricultural labor practices and digital conversational interfaces.
 
-Crop & Soil Guidance: Provides trusted information about crop health, seasonal farming, soil types, and fertilizer recommendations.
+## 🌾 Project Domain
+The **Chatbot** is designed to model the daily operations, knowledge base, and philosophical outlook of a modern-day farmer. By digitizing experiential knowledge, the project provides an interactive medium to understand the complexities of crop management, irrigation, and the challenges inherent in the agricultural sector.
 
-Pest & Disease Advisory: Smart assistance to guide users about identifying pests, plant diseases, and choosing the right remedies.
-
-24/7 Availability: Instant automated support for farmers at any time of the day without any delay.
-
-🛠️ Tech Stack (To Be Used)
-Language: Python 🐍
-
-Frontend/UI: Streamlit (For a clean and interactive web interface suitable for rural users)
-
-AI/LLM Integration: Google Gemini API / OpenAI API / LangChain
-
-Database/Knowledge Base: JSON or CSV (To store the 200+ agriculture questions and answers)
-
-☑️ Current Status
-[x] Project Idea & Conceptualization
-
-[x] Creating the 200+ Question-Answer Dataset
-
-[ ] Writing Python Backend Code
-
-[ ] Integrating AI API
-
-[ ] Deploying the Chatbot
+## 🛠 Technical Implementation
+* **Control Flow:** Implemented via a robust `while True` loop to ensure session persistence.
+* **Heuristic Parser:** Utilizes extensive substring keyword matching to map natural language queries to domain-specific datasets (e.g., irrigation, harvest, livestock).
+* **Environment:** Developed in Python with a focus on clean, scalable conditional logic.
